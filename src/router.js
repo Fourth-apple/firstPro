@@ -25,7 +25,7 @@ export default class IRouter extends Component{
             <Router>
                 <App>
                     <Route path="/login" component={Login}/>
-                    <Route path="/admin" render={()=>
+                    <Route path="/" render={()=>
                         <Admin>
                             <Switch>
                                 <Route path="/admin/ui/buttons" component={Buttons}/>
