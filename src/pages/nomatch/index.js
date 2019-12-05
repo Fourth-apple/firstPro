@@ -4,7 +4,7 @@ export default class NoMatch extends Component{
     render(){
         return(
             <div style={{textAlign:'center',fontSize:'24'}}>
-                404 NO Found!!!
+                啥也找不到呀!!!
             </div>
         )
     }

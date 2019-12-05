@@ -7,7 +7,7 @@ import axios from './../../axios'
 export default class Header extends Component{
     componentWillMount(){
         this.setState({
-            userName:'河畔一角'
+            userName:'村门口的'
         });
         setInterval(()=>{
             let sysTime=Util.formateDate(new Date().getTime());
@@ -62,7 +62,7 @@ export default class Header extends Component{
                        <span className="weather-detail">
                            {/* <img src={this.state.dayPictureUrl} alt=""/>
                            {this.state.weather} */}
-                           晴转多云
+                           美丽的天气呀
                        </span>
                    </Col>
                </Row>

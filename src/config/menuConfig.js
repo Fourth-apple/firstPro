@@ -74,11 +74,11 @@ const menuList = [
         key: '/admin/rich'
     },
     {
-        title: '城市管理',
+        title: '村庄管理',
         key: '/admin/city'
     },
     {
-        title: '订单管理',
+        title: '小卖部管理',
         key: '/admin/order',
         btnList: [
             {
@@ -86,17 +86,17 @@ const menuList = [
                 key: '/admin/detail'
             },
             {
-                title: '结束订单',
+                title: '卖货结束',
                 key: '/admin/finish'
             }
         ]
     },
     {
-        title: '员工管理',
+        title: '村民管理',
         key: '/admin/user'
     },
     {
-        title: '车辆地图',
+        title: '村子地图',
         key: '/admin/bikeMap'
     },
     {
